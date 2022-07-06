@@ -33,7 +33,7 @@ class Team
 	private Vector3 $abilityShop;
 	private Vector3 $enchantShop;
 	private array $respawn = [];
-	private float $dtr = 3.1;
+	private float $dtr = 6.1;
 	private array $alivePlayers = [];
 	private array $members = [];
 	private array $blocks = [];
