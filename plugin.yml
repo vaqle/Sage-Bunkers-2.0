@@ -1,0 +1,6 @@
+name: "BunkersHCF"
+api: 4.0.0
+description: "BUNKERS"
+version: 1.0.0
+author: VAQLE
+main: vale\core\bunkers\Bunkers

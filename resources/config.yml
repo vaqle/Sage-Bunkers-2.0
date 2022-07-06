@@ -1,0 +1,59 @@
+maps:
+  Classic:
+    world: "Classic"
+    koth:
+      - name: "Â§rÂ§4Classic Â§rÂ§6Koth"
+        firstpos: "-4:36:4"
+        secondpos: "4:76:-4"
+        claimpos1: "59:14:-59"
+        claimpos2: "-59:73:59"
+    formIcon: "textures/items/emerald"
+    teams:
+      - name: "Red"
+        x: "0"
+        y: "43"
+        z: "178"
+        combatshop: "6:34:193"
+        sellshop: "-5:34:193"
+        abilityshop: ""
+        enchantshop: ""
+        claim:
+          firstpos: "46:6:149"
+          secondpos: "-45:110:199"
+      - name: "Yellow"
+        x: "-178"
+        y: "42"
+        z: "0"
+        combatshop: "-193:33:6"
+        sellshop: "-193:34:-6"
+        abilityshop: ""
+        enchantshop: ""
+        claim:
+          firstpos: "-149:5:46"
+          secondpos: "-199:82:-46"
+      - name: "Green"
+        x: "178"
+        y: "43"
+        z: "0"
+        combatshop: "193:33:-6"
+        sellshop: "193:33:6"
+        abilityshop: ""
+        enchantshop: ""
+        claim:
+          firstpos: "149:6:-46"
+          secondpos: "199:118:46"
+      - name: "Blue"
+        x: "0"
+        y: "43"
+        z: "-178"
+        combatshop: "-6:34:-193"
+        sellshop: "6:34:-193"
+        abilityshop: ""
+        enchantshop: ""
+        claim:
+          firstpos: "-46:6:-149"
+          secondpos: "46:110:-199"
+
+members_for_team: 5
+kothwins_needed: 25 #these do nothing i never set them up ^
+lobbyworld: "world" #this works tho lozl
