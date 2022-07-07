@@ -70,6 +70,7 @@ class GameListener implements Listener
 				if(!$game->isSpectator($player)) $game->addSpectator($player);
 			}
 		}
+		break;
 		$this->getBunkers()->getScheduler()->scheduleRepeatingTask(new GameWinTask(
 			$game,
 			$team
